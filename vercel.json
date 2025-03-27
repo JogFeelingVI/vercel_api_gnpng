@@ -1,9 +1,8 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/api/gencx",
-      "dest": "api/gencx.py"
-    }
-  ]
-}
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/api/index"
+      }
+    ]
+  }
