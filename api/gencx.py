@@ -2,7 +2,7 @@
 # @Author: Your name
 # @Date:   2025-03-27 12:25:13
 # @Last Modified by:   Your name
-# @Last Modified time: 2025-03-27 12:30:54
+# @Last Modified time: 2025-03-27 12:42:15
 
 import json
 
@@ -55,10 +55,3 @@ def handler(event, context):
             },
             'body': json.dumps({'error': 'Method Not Allowed. Only POST requests are supported.'})
         }
-
-def main():
-    print("Hello, World!")
-
-
-if __name__ == "__main__":
-    main()
