@@ -1,0 +1,17 @@
+[project]
+name = "vercel-api-gnpng"
+version = "0.1.0"
+description = "json to png and crad"
+authors = [
+    {name = "JogfeeingVI",email = "lifelse@outlook.com"}
+]
+license = {text = "APL2.0"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
