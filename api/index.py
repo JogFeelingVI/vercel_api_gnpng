@@ -2,7 +2,7 @@
 # @Author: Your name
 # @Date:   2025-03-27 12:25:13
 # @Last Modified by:   Your name
-# @Last Modified time: 2025-03-27 14:23:27
+# @Last Modified time: 2025-03-28 08:35:04
 
 from sanic import Sanic
 from sanic.request import Request
@@ -15,5 +15,3 @@ app = Sanic("vercel-api-gnpng")
 async def index(request:Request):
     return text(f'info: {os.cpu_count()}')
 
-if __name__ == '__main__':
-    app.run()
