@@ -2,7 +2,7 @@
 # @Author: Your name
 # @Date:   2025-03-27 12:25:13
 # @Last Modified by:   Your name
-# @Last Modified time: 2025-03-28 08:40:36
+# @Last Modified time: 2025-03-28 09:11:29
 
 from sanic import Sanic
 from sanic.request import Request
@@ -15,3 +15,5 @@ app = Sanic("vercel-api-gnpng")
 async def index(request:Request):
     return text(f'你好,欢迎使用GNA.\nHello, welcome to GNA.\nこんにちは、GNAへようこそ.')
 
+if __name__ == "__main__":
+    app.run(workers=4)
